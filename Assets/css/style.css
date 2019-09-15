@@ -1,14 +1,45 @@
+
 header {
-    font-size: 20px;
+    font-size: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
     
+    
+}
+
+.whitebar {
+    position: relative;
+    height: 70px;
+    background-color: white;
+    z-index: 0;
+    top: 0; 
+    margin: 0;
+    
+
 }
 
 .tealbox {
-    position: relative;
+    position: absolute;
     background-color: #4aaaa5;
     width: 240px;
-    height: 90px;
+    height: 70px;
     left: 30px;
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 0;
+}
+
+.hugewhitebox {
+    position: relative;
+    align-items: center;
+    width: 960px;
+    height: 470px;
+    background-color: aqua;
+}
+
+body { 
+    margin: 0;
+    background-image: url("../images/circles-dark.png");
 }
