@@ -1,0 +1,14 @@
+header {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    
+}
+
+.tealbox {
+    position: relative;
+    background-color: #4aaaa5;
+    width: 240px;
+    height: 90px;
+    left: 30px;
+}
