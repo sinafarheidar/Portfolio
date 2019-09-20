@@ -1,3 +1,5 @@
+/* About Me Page */
+
 
 header {
     font-size: 25px;
@@ -14,16 +16,40 @@ header {
     z-index: 0;
     top: 0; 
     margin: 0;
-    
-
 }
+
+
+
+.grayline {
+    position: relative;
+    height: 40px;
+    width: 1px;
+    background-color: lightgray;
+    z-index: 1;
+    top: -90px; 
+    opacity: .5;
+    left: 1150px;
+}
+
+
+.grayline2 {
+    position: relative;
+    height: 40px;
+    width: 1px;
+    background-color: lightgray;
+    z-index: 0;
+    top: -50px; 
+    opacity: .5;
+    left: 1243px; 
+}
+
 
 .tealbox {
     position: absolute;
     background-color: #4aaaa5;
     width: 240px;
     height: 70px;
-    left: 30px;
+    left: 358px;
     z-index: 1;
     align-items: center;
     justify-content: center;
@@ -33,13 +59,153 @@ header {
 
 .hugewhitebox {
     position: relative;
-    align-items: center;
+    display: flex;
     width: 960px;
-    height: 470px;
-    background-color: aqua;
+    height: 500px;
+    background-color: white;
+    margin: 0 auto;
+    top: 1px;
+    box-shadow: 0px 0px 1px 1px #a39191;
 }
 
 body { 
     margin: 0;
     background-image: url("../images/circles-dark.png");
+}
+
+.pindex {
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    position: relative;
+    top: 100px;
+    right: 120px;
+    line-height: 30px;
+}
+
+a {
+    color: gray;
+    opacity: .5;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 9px;
+    align-items: right;
+    position: relative;
+    top: 25px;
+    left: 1080px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    position: relative;
+    top: 100px;
+    right: 127px;
+   
+}
+
+h1 {
+    color: #4aaaa5;
+    white-space: nowrap;
+    position: relative;
+    left: 30px;
+}
+
+.bottomgraybar {
+    position: relative;
+    height: 60px;
+    background-color: gray;
+    z-index: 0;
+    top: 220px; 
+    margin: 0;
+    border-top: 10px #4aaaa5 solid ;
+}
+
+.longgrayline {
+    position: relative;
+    opacity: .5;
+    height: 3px;
+    width: 880px;
+    background-color: lightgray;
+    z-index: 0;
+    top: -500px; 
+    left: 390px;  
+}
+
+/* For Contact Page */
+
+body { 
+    margin: 0;
+    background-image: url("../images/circles-dark.png");
+}
+
+.form {
+    width: 900px;
+    height: 25px;
+    right: 130px;
+    position: relative;
+    top: 70px;
+}
+
+.nameform {
+    position: relative;
+    top: 60px;
+}
+
+.pcontactme {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: gray;
+    right: 130px;
+    top: 80px;
+}
+
+.form2 {
+    width: 900px;
+    height: 25px;
+    right: 130px;
+    position: relative;
+    top: 65px;
+}
+
+.pcontactme2 {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: gray;
+    right: 130px;
+    top: 80px;
+}
+
+.form3 {
+        width: 900px;
+        height: 150px;
+        right: 130px;
+        position: relative;
+        top: 59px;
+}
+
+.pcontactme3 {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: gray;
+    right: 130px;
+    top: 75px;
+}
+
+input[type=button] {
+    position: relative;
+    height: 10%;
+    width: 10%;
+    top: 65px;
+    right: 130px;
+    border-radius: 5%;
+    background-color: #4aaaa5;
+    color: white;
+}
+
+.special input:hover {
+transition: background-color .2s ease;
+background-color: gray;
 }
